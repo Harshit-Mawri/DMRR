@@ -1,11 +1,7 @@
 [project]
-name = "django-projects"
+name = "dmrr"
 version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-authors = [
-    { name = "HarshitMawri", email = "harshit33646@gmail.com" }
-]
+description = "A React and Django full-stack task manager"
 requires-python = ">=3.12"
 dependencies = [
     "django>=6.1.2",
@@ -15,9 +11,5 @@ dependencies = [
     "djangorestframework-simplejwt>=5.5.1",
 ]
 
-[project.scripts]
-django-projects = "django_projects:main"
-
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
