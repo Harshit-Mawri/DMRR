@@ -1,5 +1,5 @@
 from rest_framework.response import Response
-from .seriializers import UserSerializer, LoginSerializer
+from .serializers import UserSerializer, LoginSerializer
 from rest_framework.decorators import api_view, permission_classes
 from django.contrib.auth.models import User
 from rest_framework import status
